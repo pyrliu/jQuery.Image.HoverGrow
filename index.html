@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title>Image Autogrow example</title>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.image.hovergrow.js"></script>
+	<style type="text/css">
+	body {
+		font-family: 'Lucida Grande', sans-serif;
+	}
+	</style>
+</head>
+<body>
+<p>
+<img src="hakuba_500px.jpg" alt="" title="" style="width: 150px;float: left;margin: 10px;" />
+<img src="hakuba_500px.jpg" alt="" title="" style="width: 150px;float: right;margin: 10px;" />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sapien est, varius eu sagittis vel, consequat eget neque. Aenean sit amet auctor diam. Sed eu libero porta augue ultrices feugiat. Curabitur eget odio tellus, faucibus venenatis justo. Maecenas a nisi ac felis dignissim molestie at ac sem. Ut varius aliquet sapien, vel faucibus tortor fringilla sit amet.</p>
+
+<p>
+Sed quis ante semper massa accumsan condimentum nec sit amet enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin pharetra volutpat tortor in porta. Aenean cursus venenatis est in tincidunt. Integer aliquam condimentum tincidunt. Pellentesque facilisis tempus lectus, eu viverra massa mollis eget. In hac habitasse platea dictumst. Mauris imperdiet condimentum neque, id gravida nulla posuere non. Aenean id risus nibh, vitae pellentesque arcu.
+</p>
+
+
+<script type="text/javascript">
+$(function(){
+	$('img').imageHoverGrow({
+		duration: 1000
+	});
+});
+</script>
+</body>
+</html>
